@@ -13,5 +13,10 @@ DiamondBrew is a Lua VM-based Obfuscator made in TypeScript
 - Step 4.5: If you encounter errors related to missing modules, you need to run `bun init` before doing step 4 👍
 - Step 5: The output will be written at Output.lua
 
+## COMMONLY OCCURING BUGS
+- Booleans are sometimes reversed
+- Self Opcode does not work properly
+- Test Spam CFlow Comparison Opcode Bug
+
 ### LICENSE
 MIT LICENSE

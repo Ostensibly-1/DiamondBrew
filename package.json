@@ -1,0 +1,16 @@
+{
+  "name": "DiamondBrew",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/luaparse": "^0.2.12"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "lua-format": "^1.5.2",
+    "luaparse": "^0.3.1"
+  }
+}
